@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv="refresh" content="3;url=http://hongda.lu">
+<title>The System Is Down</title>
+<style>
+div {display:inline; }
+body {background:#0000aa;color:#ffffff;font-family:courier;font-size:12pt;text-align:center;margin:100px;}
+blink {color:yellow;}
+.neg {background:#fff;color:#0000aa;padding:2px 8px;font-weight:bold;}
+p {margin:30px 100px;text-align:left;}
+a,a:hover {color:inherit;font:inherit;}
+.menu {text-align:center;margin-top:50px;}
+<!--
+a:link { text-decoration: none;}
+a:active { text-decoration:blink}
+a:hover { text-decoration:underline;} 
+a:visited { text-decoration: none;}
+--> 
+</style>
+ <script type="text/javascript">
+  var time = 4;
+  function returnUrlByTime() {
+   window.setTimeout('returnUrlByTime()', 1000);
+   time = time - 1;
+   document.getElementById("time").innerHTML = time;
+  }
+ </script>
+</head>
+<body onload="returnUrlByTime()">
+<span class="neg">ERROR 404</span>
+<p>
+The page is missing or never existed. You can wait and<br />
+see if it becomes available again, or you can restart your computer.
+</p>
+<p>
+
+* Press CTRL+ALT+DEL to restart your computer. 
+<br/>&nbsp;&nbsp;You will lose unsaved information in any programs that are running.
+</p>
+Press the 'any' key to <a href="/">continue</a> <blink>_</blink><br />The page will be re-directed in <div id="time">3</div> seconds
+</body>
+</html>
