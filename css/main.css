@@ -992,6 +992,9 @@ body {
   font-size: 14px;
   color: #555;
 }
+.site-musicplayer {
+  margin-top: 25px;
+}
 .site-state {
   overflow: hidden;
   line-height: 1.4;
@@ -1055,7 +1058,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffcc3b;
+  background: #65ffff;
 }
 .sidebar-nav {
   margin: 0;
